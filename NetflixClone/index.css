@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+}
+.back_image{
+    background-size: 100vw;
+    height: 90vh;
+    background-image: url("netflix_back.jpg");
+    position: relative;
+}
+.back_image .box{
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+}
+.header_container{
+    justify-content: space-between;
+    height: 80px;
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.netflix_logo{
+    position: relative;
+    z-index: 10;
+    height:50px;
+    width: 150px;
+}
+.drop_down{
+    z-index: 10;
+}
+.select_language{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding:5px 15px 5px 15px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    z-index: 10;
+    position: relative;
+}
+.select_language option{
+    color: black;
+}
+.sign_button{
+    border-radius: 5px;
+    padding:5px 12px 5px 12px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+}
+.center_container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_container{
+    z-index: 10;
+    text-align: center;
+}
+#p1{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-style: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+#p2{
+    font-size: 1.5rem;
+    font-style: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+#p3{
+    font-size: 1rem;
+    font-style: bold;
+    color: white;
+}
+.email_form{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner_email_form {
+    border-radius: 5px;
+    width: 20vw;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border: 2px solid green;
+    background-color: rgb(23, 23, 23, 0.5);
+    margin: 10px;
+}
+.inner_email_form label{
+    padding: 2px 5px 2px 10px;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+.core_email_form input{
+    font-size: 1rem;
+    padding: 2px 5px 2px 10px;
+    color: white;
+    width: 100%;
+    border: 0px solid;
+    background-color: transparent;
+}
+input:focus{
+    outline: none;
+}
+.color{
+    font-style: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 20px;
+    background-color: red;
+}
+body{
+    background-color: black;
+}
+.top_container{
+    position: relative;
+    width: 60%;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.slider{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+    border: 2px solid white;
+    transition: transform 0.5s ease-in-out; */
+    display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+.slide {
+    margin:10px;
+    overflow: hidden;
+    flex: 0 0 20%; /* Display 5 items at a time (each slide takes 20% width) */
+  /* margin-right: 10px; Spacing between slides */
+  background-color: #333;
+  color: white;
+  /* font-size: 2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.box1_img{
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 100%;
+    background-image: url("box1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.box2_img{
+    border-radius: 10px;
+    background-image: url("box2.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box3_img{
+    border-radius: 10px;
+    background-image: url("43bd650a-bb36-4de3-b22a-25ea9aa59c46.jfif");
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box4_img{
+    border-radius: 10px;
+    background-image: url("Leo\ Vijay.jfif");
+    width: 100%;
+    height: 100%;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.box5_img{
+    border-radius: 10px;
+    background-image: url("Sector\ 36\ Review_\ Raw\,\ Real\,\ and\ Unforgettable.jfif");
+    width: 100%;
+    height: 100%;
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box6_imag{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.box7_imag{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.box8_imag{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.box9_imag{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.box10_imag{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+.slide:hover {
+    transform: scale(1.1); 
+}
+.prev {
+    left: 10px;
+}
+  
+.next {
+    right: 10px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.grid_container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    flex-wrap: wrap;
+    margin: 0 1rem 0 1rem;
+}
+.grid{
+    margin: 1rem;
+    height:18vw;
+    width: 15%;
+    border: 2px solid white;
+    background-color: red;
+}
+footer{
+    margin-top: 50px;
+    background-color: #333;
+    height: 20vh;
+    display:grid;
+    place-items: center;
+}
+.rights{
+    color: white;
+    font-size: 1.5rem;
+}
+.foot-list ul{
+    list-style: none;
+}
+.foot-list a{
+    color: white;
+    text-decoration: none;
+}
+.grid{
+    position: relative;
+    color: red;
+    font-size: 10rem;
+    background-image: url("box1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
